@@ -6,7 +6,7 @@ console.log(web3);
 
 //import the abi
 const contractAbi = require('./build/contracts/web3ClubsToken.json')
-const contractAddress = '0x435be9A8C51246292329e1F05aA6D6b7cf5c8acD'
+const contractAddress = '0xfE3aDF99A54009895Dd8eA725B5f1C6610d55f46'
 
 
 // get blockchain ID
@@ -54,4 +54,4 @@ const transferEther = async(recepient, sender, amount) => {
     console.log(tx)
 }
 
-trandferEther("0x384ab6aB79bF440B110DFcf99F02Ce5f47cd2411","0x435be9A8C51246292329e1F05aA6D6b7cf5c8acD", 2)
+trandferEther("0x16982A21Ff24D32c2724Be40bf1Ad7E7Ffb2EA1b","0xfE3aDF99A54009895Dd8eA725B5f1C6610d55f46", 2)
